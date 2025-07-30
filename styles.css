@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+.hero{
+	width:800px;
+	height:400px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-color:gray
+}
+
+.image{
+	width:400px;
+	height:400px;
+	object-fit:cover;
+}
+.clone{
+	height:400px;
+	width:200px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+
+button{
+	padding:10px;
+	background-color:darkorange;
+	color:white;
+	border-radius:5px;
+}
